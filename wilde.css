@@ -4,6 +4,10 @@ p {
     font: "font: 15px Arial, sans-serif;"
 }
 
+p.speech {
+    font: "font: 15px Arial, sans-serif;"
+}
+
 P.stage-direction{
     background-color: skyblue;
 }
