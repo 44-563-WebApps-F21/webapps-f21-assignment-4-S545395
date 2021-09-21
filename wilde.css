@@ -5,11 +5,15 @@ p {
 }
 
 p.speech {
-    font: "font: 15px Arial, sans-serif;"
+    font: "font: 15px Arial, sans-serif;";
+    color:black;
 }
+
 
 P.stage-direction{
     background-color: skyblue;
+    margin-left:20px;
+
 }
 
 p.stage-direction:hover{
@@ -19,6 +23,7 @@ p.stage-direction:hover{
 
 h5.prince-petro{
      color: mediumblue;
+     margin-left:10px;
 }
 
 h5.prince-paul{
@@ -33,26 +38,29 @@ h5.czare{
 
 h5.prince-paul2{
     color: mediumblue;
-    text-shadow:2px 3px 5px green
+    text-shadow:2px 3px 5px green;
+    filter: blur(1px);
 }
 
 h5.czare2{
     color: mediumblue;
     text-shadow:2px 3px 5px green;
     border: green;
-
+    filter: blur(1px);
 }
 
 h5.czare2:hover{
     color: red;
     text-shadow:2px 3px 5px yellow;
     border: red;
+    filter: blur(1px);
 }
 
 h5.prince-paul2:hover{
     color: red;
     text-shadow:2px 3px 5px yellow;
     border: red;
+    filter: blur(1px);
 }
 
 table,td,th
@@ -70,5 +78,75 @@ tr:nth-child(even) {
   }
 
 
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+    
+  ul.navbar-vertical a:hover{
+    background-color: #555;color:red;
+  }
 
 
+.ico:before{
+    content: '';
+    background:url('speakingicon.png');
+    background-size:cover;
+        position:absolute;
+    width:20px;
+    height:20px;
+    margin-left:-20px;
+}
+
+.icon:before{
+    content: '';
+    background:url('smily.jpg');
+    background-size:cover;
+    position:absolute;
+    background-color: skyblue;
+    width:30px;
+    height:20px;
+    margin-left:-10px;
+}
+
+.iconnew:before{
+    content: '';
+    background:url('smily.jpg');
+    background-size:cover;
+    position:absolute;
+    width:25px;
+    height:20px;
+    margin-left:-29px;
+}
+
+.angryicon:before{
+    content: '';
+    background:url('angryicon.jpg');
+    background-size:cover;
+    position:absolute;
+    width:20px;
+    height:20px;
+    margin-left:-5px;
+}
+    #content {
+        position: relative;
+    }
+    #content img {
+        position: absolute;
+        top: 170px;
+        right: 30px;
+        height: 415px;
+        width: 350px;
+    }
