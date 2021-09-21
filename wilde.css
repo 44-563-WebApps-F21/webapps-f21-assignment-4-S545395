@@ -31,6 +31,30 @@ h5.czare{
     color: mediumblue;
 }
 
+h5.prince-paul2{
+    color: mediumblue;
+    text-shadow:2px 3px 5px green
+}
+
+h5.czare2{
+    color: mediumblue;
+    text-shadow:2px 3px 5px green;
+    border: green;
+
+}
+
+h5.czare2:hover{
+    color: red;
+    text-shadow:2px 3px 5px yellow;
+    border: red;
+}
+
+h5.prince-paul2:hover{
+    color: red;
+    text-shadow:2px 3px 5px yellow;
+    border: red;
+}
+
 table,td,th
 { 
     border: solid 1px ;
