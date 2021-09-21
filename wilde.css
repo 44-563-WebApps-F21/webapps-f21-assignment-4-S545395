@@ -5,10 +5,8 @@ p {
 }
 
 p.speech {
-    font: "font: 15px Arial, sans-serif;";
-    color:black;
+    font: "font: 15px Arial, sans-serif;"
 }
-
 
 P.stage-direction{
     background-color: skyblue;
@@ -28,12 +26,15 @@ h5.prince-petro{
 
 h5.prince-paul{
     color: mediumblue;
+    margin-left:10px;
 }
 h5.count{
     color: mediumblue;
+    margin-left:10px;
 }
 h5.czare{
     color: mediumblue;
+    margin-left:10px;
 }
 
 h5.prince-paul2{
