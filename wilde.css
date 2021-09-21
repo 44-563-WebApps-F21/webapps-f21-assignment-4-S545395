@@ -39,27 +39,23 @@ h5.czare{
 
 h5.prince-paul2{
     color: mediumblue;
-    text-shadow:2px 3px 5px green;
-    filter: blur(1px);
 }
 
 h5.czare2{
     color: mediumblue;
-    text-shadow:2px 3px 5px green;
     border: green;
-    filter: blur(1px);
 }
 
 h5.czare2:hover{
     color: red;
-    text-shadow:2px 3px 5px yellow;
+    text-shadow:2px 3px 5px green;
     border: red;
     filter: blur(1px);
 }
 
 h5.prince-paul2:hover{
     color: red;
-    text-shadow:2px 3px 5px yellow;
+    text-shadow:2px 3px 5px green;
     border: red;
     filter: blur(1px);
 }
